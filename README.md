@@ -1,2 +1,2 @@
-# taskcat-exampl
-taskcat-exampl
+# taskcat-example
+taskcat-example
