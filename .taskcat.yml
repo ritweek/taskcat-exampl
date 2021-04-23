@@ -6,15 +6,12 @@ project:
 tests:
   sqs-test:
     template: ./sqs.yml
-    
-tests:
   lesson5-ebs:
     parameters:
       AvailabilityZones: '$[taskcat_genaz_1]'
     template: ./lesson5-rest/ceoa-5-ebs.yml
-    
-tests:
-  lesson5-ebs:
+  lesson5-ebs1:
     parameters:
       AvailabilityZones: '$[taskcat_genaz_1]'
     template: ./lesson5-rest/another-cd-template.yml
+    

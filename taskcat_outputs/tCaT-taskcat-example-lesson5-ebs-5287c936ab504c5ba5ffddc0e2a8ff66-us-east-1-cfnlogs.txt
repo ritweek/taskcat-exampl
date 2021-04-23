@@ -1,0 +1,30 @@
+-----------------------------------------------------------------------------
+Region: us-east-1
+StackName: tCaT-taskcat-example-lesson5-ebs-5287c936ab504c5ba5ffddc0e2a8ff66
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                                 LogicalResourceId                                                  ResourceStatusReason
+--------------------------------  ------------------  -------------------------------------------  -----------------------------------------------------------------  ---------------------------
+2021-04-22 14:45:30.724000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack                   tCaT-taskcat-example-lesson5-ebs-5287c936ab504c5ba5ffddc0e2a8ff66
+2021-04-22 14:45:29.278000+00:00  CREATE_COMPLETE     AWS::ApplicationAutoScaling::ScalingPolicy   WriteScalingPolicy
+2021-04-22 14:45:29.148000+00:00  CREATE_IN_PROGRESS  AWS::ApplicationAutoScaling::ScalingPolicy   WriteScalingPolicy                                                 Resource creation Initiated
+2021-04-22 14:45:28.385000+00:00  CREATE_IN_PROGRESS  AWS::ApplicationAutoScaling::ScalingPolicy   WriteScalingPolicy
+2021-04-22 14:45:26.405000+00:00  CREATE_COMPLETE     AWS::ApplicationAutoScaling::ScalableTarget  WriteCapacityScalableTarget
+2021-04-22 14:45:26.283000+00:00  CREATE_IN_PROGRESS  AWS::ApplicationAutoScaling::ScalableTarget  WriteCapacityScalableTarget                                        Resource creation Initiated
+2021-04-22 14:45:25.583000+00:00  CREATE_IN_PROGRESS  AWS::ApplicationAutoScaling::ScalableTarget  WriteCapacityScalableTarget
+2021-04-22 14:45:23.252000+00:00  CREATE_COMPLETE     AWS::DynamoDB::Table                         DDBTable1
+2021-04-22 14:45:07.632000+00:00  CREATE_COMPLETE     AWS::IAM::Role                               ScalingRole
+2021-04-22 14:44:52.527000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Role                               ScalingRole                                                        Resource creation Initiated
+2021-04-22 14:44:52.279000+00:00  CREATE_IN_PROGRESS  AWS::DynamoDB::Table                         DDBTable1                                                          Resource creation Initiated
+2021-04-22 14:44:52.214000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Role                               ScalingRole
+2021-04-22 14:44:52.060000+00:00  CREATE_IN_PROGRESS  AWS::DynamoDB::Table                         DDBTable1
+2021-04-22 14:44:47.447000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack                   tCaT-taskcat-example-lesson5-ebs-5287c936ab504c5ba5ffddc0e2a8ff66  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Thursday, 22. April 2021 02:46PM
+-----------------------------------------------------------------------------
+
