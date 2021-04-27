@@ -3,7 +3,6 @@ project:
   regions:
     - ap-south-1    
 tests:  
-  lesson5-ebs:
-    parameters:      
+  lesson5-ebs:    
     template: ./lesson5-rest/ceoa-5-ebs.yml
     
