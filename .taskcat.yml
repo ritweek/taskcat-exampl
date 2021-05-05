@@ -5,4 +5,5 @@ project:
 tests:  
   lesson5-ebs:    
     template: ./lesson5-rest/ceoa-5-ebs.yml
+    s3_bucket: pwc-pss-test-bucket
     
